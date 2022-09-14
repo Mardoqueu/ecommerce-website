@@ -91,3 +91,18 @@ JS AMAZONA
    4. set start: nodemon --watch backend --exec babel-node backend/server.js
    5. convert require to import in server.js
    6. npm start
+10. Enable Code Linting
+11. npm install --D eslint
+12. install VSCode eslint extension
+13. create .eslintrc and set module.exports for evn to node
+14. Set VSCode setting for editor .codeActionsOnSave source.fixAll.eslint to true
+15. check result for linting error
+16. npm install eslint-config-airbnb-base and eslint-plugin-import
+17. set extends to airbnb-base
+18. set parserOptions to ecmaVersion 11 and sourceType to module
+19. set rules for no-console to 0 to ignore linting error
+20. Install VSCode Extension
+    1. JavaScript (ES6) code snippets
+    2. ES7 React/Redux/GraphQL/React-Native snippets
+    3. Prettier - Code formatter
+    4. HTML&LESS grammar injections
