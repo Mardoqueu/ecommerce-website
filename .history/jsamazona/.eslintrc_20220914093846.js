@@ -13,6 +13,5 @@ module.exports = {
     'no-console': 0,
     'no-trailing-spaces': 0,
     'eol-last': 0,
-    'no-nested-ternary': 0,
   },
 };

@@ -31,10 +31,7 @@ const HomeScreen = {
           </a>
         </div>
         <div class="product-rating">
-          ${Rating.render({
-            value: product.rating,
-            text: `${product.numReviews} reviews`,
-          })}
+          ${Rating.render()}
         </div>
         <div class="product-brand">
           ${product.brand}
