@@ -9,7 +9,6 @@ app.get('/api/products', (req, res) => {
 });
 
 app.get('/api/products/:id', (req, res) => {
-  // eslint-disable-next-line no-underscore-dangle
   const product = data.products.find((x) => x._id === req.params.id);
   if (product) {
     res.send(product);
