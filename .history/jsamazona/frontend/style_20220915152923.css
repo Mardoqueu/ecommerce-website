@@ -212,18 +212,3 @@ footer {
   flex: 1 1;
   text-align: right;
 }
-
-.cart-name > div {
-  padding: 1rem;
-}
-
-.cart-list h3{
-  margin: 0;
-}
-
-.cart-list button,
-.cart-list select {
-  font-size: 1.3rem;
-  font-size: 1.3rem;
-  padding: 0.5rem;
-}
