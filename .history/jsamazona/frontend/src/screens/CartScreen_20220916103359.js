@@ -90,7 +90,7 @@ const CartScreen = {
                 </div>
                 <div>
                   Qty: 
-                  <select class="qty-select" id="${item.product}">
+                  <select class="qty-select" id="${item.products}">
                     ${[...Array(item.countInStock).keys()].map((x) =>
                       item.qty === x + 1
                         ? `<option selected value="${x + 1}">${x + 1}</option>`
