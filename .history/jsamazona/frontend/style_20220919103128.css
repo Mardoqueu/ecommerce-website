@@ -251,13 +251,3 @@ footer {
   border-radius: 0.5rem;
   list-style-type: none;
 }
-
-.form-items li {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-.form-container h1{
-  font-size: 2.5rem;
-}
