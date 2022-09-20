@@ -1,4 +1,4 @@
-import { hideLoading, parseRequestUrl, showLoading } from '../utils';
+import { parseRequestUrl, showLoading } from '../utils';
 import { getProduct } from '../api';
 import Rating from '../components/Rating';
 
@@ -19,7 +19,6 @@ const ProductScreen = {
     if (product.error) {
       return `<div>${product.error}</div>`;
     }
-    hideLoading();
     return `
     <div class="content">
       <div class="back-to-result">

@@ -36,6 +36,6 @@ export const showMessage = (message, callback) => {
   document.getElementById('message-overlay').classList.remove('active');
   if(callback){
     callback();
-  };
-  });
-};
+  }
+  })
+}

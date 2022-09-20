@@ -4,8 +4,8 @@ import Rating from '../components/Rating';
 import { hideLoading, showLoading } from '../utils';
 
 const HomeScreen = {
+  showLoading();
   render: async () => {
-    showLoading();
     const response = await axios({
       url: 'http://localhost:5000/api/products',
       headers: {

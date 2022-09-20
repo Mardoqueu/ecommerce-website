@@ -30,12 +30,5 @@ export const showMessage = (message, callback) => {
       <div id="message-overlay-content">${message}</div>
       <button id="message-overlay-close">OK</button>
     </div>
-  `;
-  document.getElementById('message-overlay').classList.add('active');
-  document.getElementById('message-overlay').addEventListener('click', () =>{
-  document.getElementById('message-overlay').classList.remove('active');
-  if(callback){
-    callback();
-  };
-  });
-};
+  `
+}

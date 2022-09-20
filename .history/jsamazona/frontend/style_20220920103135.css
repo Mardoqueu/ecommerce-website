@@ -59,9 +59,7 @@ button.primary {
   flex-direction: column;
   justify-content: space-around;
   max-width: 40rem;
-}
-.overlay > div > * {
-  margin: 2rem;
+
 }
 
 .fw {

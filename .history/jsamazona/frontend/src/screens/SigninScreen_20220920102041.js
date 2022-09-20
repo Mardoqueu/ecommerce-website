@@ -1,6 +1,6 @@
 import { signin } from "../api";
 import { getUserInfo, setUserInfo } from "../localStorage";
-import { hideLoading, showLoading, showMessage } from "../utils";
+import { showLoading } from "../utils";
 
 /* eslint-disable arrow-body-style */
 const SigninScreen = {
@@ -13,9 +13,8 @@ const SigninScreen = {
                 email: document.getElementById('email').value,
                 password: document.getElementById('password').value,                
             });
-            hideLoading();
             if(data.error){
-                showMessage(data.error);
+                alert(data.error);
             }else {
                 setUserInfo(data);
                 document.location.hash = '/';
