@@ -1,5 +1,5 @@
 import { signin } from "../api";
-import { getUserInfo, setUserInfo } from "../localStorage";
+import { getUserInfo } from "../localStorage";
 
 /* eslint-disable arrow-body-style */
 const SigninScreen = {

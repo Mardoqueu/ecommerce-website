@@ -28,5 +28,5 @@ export const setUserInfo = ({
     )
 }
 export const getUserInfo = () => localStorage.getItem('userInfo')
-    ? JSON.parse(localStorage.getItem('userInfo'))
-    : { name: '', email: '', password: '' };
+      ? JSON.parse(localStorage.getItem('userInfo'))
+      : { name: '', email: '', password: '' };
