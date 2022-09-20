@@ -10,7 +10,7 @@ export const setCartItems = (cartItems) =>{
 };
 export const clearUser = () => {
     localStorage.removeItem('userInfo');
-};
+  };
 export const setUserInfo = ({
     _id='',
     name='',

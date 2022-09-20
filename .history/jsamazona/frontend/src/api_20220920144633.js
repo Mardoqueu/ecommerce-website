@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { apiUrl } from './config';
-import { getUserInfo } from './localStorage';
 
 export const getProduct = async (id) => {
   try {
