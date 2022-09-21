@@ -24,7 +24,7 @@ const SigninScreen = {
     },
     render: () => {
       if(getUserInfo().name) {
-        redirectUser();
+        document.location.hash = '/';
       }
       return `
       <div class="form-container">
